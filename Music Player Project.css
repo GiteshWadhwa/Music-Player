@@ -1,0 +1,393 @@
+body{
+    background-color:#2f4357;
+}
+
+/*NavBar Section*/
+.topnav{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+  background-color: cadetblue;
+    margin: 4px;
+    border: 1ps solid black;
+    border-radius: 20px;
+}
+
+#logo{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    top: 100px;
+}
+.content{
+    display:inline;
+}
+.content a{
+    color:white;
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.content input{
+   
+    width: 210px;
+    margin-left: 20%;
+    border-style: groove;
+    border: 1px solid black;
+    border-bottom-right-radius: 2px;
+    padding: 2px;
+   font-family: fantasy;
+}
+.content button{
+    background: none;
+}
+.bell{
+    margin-left: 120px;
+}
+
+.my-image img{
+ 
+    position: relative;
+    top: -50px;
+    height: 100px;
+    width:100px;
+   border-radius: 50%;
+    border:3px solid white;
+ box-shadow:1px 1px 10px 2px lightgrey;
+    margin-left: 250px;
+    float:right;
+    margin-right: 10%;
+}
+
+/*****************************************************************************************************************************************/
+/**/
+/*Main Section Code*/
+#main-body{
+    display: flex;
+    width:auto;
+}
+
+/*Carousel*/
+
+.slide-container{
+     width:800px;
+    height:600px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: hidden;
+    text-align: center;
+}
+.image-container{
+    width:2400px;
+    height: 600px;
+    position:relative;
+    transition: left 2s;
+    -webkit-transition:left 2s;
+    -moz-transition:left 2s;
+    -o-transition:left 2s;
+}
+.slider-image{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.button-container{
+    top:-20px;
+    position:relative;
+}
+.slider-button{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+#slider-image-1:target ~ .image-container{
+    left:0px;
+}
+#slider-image-2:target ~ .image-container{
+    left:-800px;
+}
+
+
+
+/*Latest Release Section*/
+
+.headings{      /*common class*/
+    color: white;
+    margin-left:40px;
+    margin: 40px;
+    font-size: 20px;
+}
+
+#container{
+    height:400px;
+    width: auto;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+#container div{
+    height: 200px;
+    width: 500px;
+    margin: auto;
+}
+.inside-container{
+    color:white;
+    float:right;
+    margin-right:40px;
+}
+.inside-container_2{
+    margin-left: 20px;
+    color:white;
+    font-size: 30px;
+    
+}
+.inside-container_3{
+    margin-left: 20px;
+    color:white;
+    font-size: 20px;
+    
+}
+
+/*Popular Artist and Stations Section*/
+.popular-art{
+    margin: 40px;
+    width: auto;
+}
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  height: 70%;
+    width:70%;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+.horiz {
+    display: flex;
+    flex-direction: row;
+}
+
+.horiz_2{
+     display: flex;
+    flex-direction: row;
+}
+.horiz_2 div{
+   margin: 10px;
+}
+.stations_2{
+     height:auto;
+    width: auto;
+    display:flex;
+    flex-direction:column-reverse;
+    flex-wrap:wrap-reverse;
+   margin:40px;
+
+}
+.imagess img{
+    width: 200px;
+    height:200px;
+}
+
+
+/* */
+#about{
+    height:auto;
+    width:100%;
+    position:relative;
+    margin-bottom:30px;
+   
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin-top: 10vh;
+}
+#my-image img{
+    height: 70%;
+    width:70%;
+   border-radius: 50%;
+    border:3px solid white;
+ box-shadow:1px 1px 10px 2px lightgrey;
+}
+
+/**/
+
+.stations{
+   height:auto;
+    width: auto;
+    background-color:cadetblue;
+    display:flex;
+    flex-direction:column-reverse;
+    flex-wrap:wrap-reverse;
+    border:1px solid black;
+   margin:40px;
+    justify-content: center;
+}
+.desc{
+    text-align: center;
+    color: white;
+}
+/**/
+.git img{
+    
+    width:130px;
+    height:100px;
+}
+/********************************************************************************************************/
+/*aside section*/
+.q{
+   display: flex;
+    justify-content:space-between;
+    margin:20px;
+}
+.qalinment{
+    float: right; 
+    margin-right: 40px; 
+}
+.text_1{
+   margin-left: 20px; 
+    font-size: 30px;  
+    color: white;
+}
+.text_2{
+    margin-left: 20px;
+    color:white;
+}
+/**/
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 10px;
+    border-radius: 40%;
+  cursor: pointer;
+    margin-right: 20%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+.music-container{
+    display:flex;
+    flex-direction: row;
+}
+.music-images{
+    width:300px;
+    height: 200px;
+}
+
+
+
+#queuemusic{
+     height:200px;
+    width: auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+#queuemusic div{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+}
+
+/****************************************************************************************************************************/
+/*Footer Section*/
+footer{
+    background-color: black;
+    height:100%;
+    width: auto;
+}
+.music{
+     margin: auto;
+       width: 50%;
+  padding: 10px;
+}
+#musc img{
+    margin:20px;
+    width:200px;
+}
+.headings_2 text{
+     color: white;
+    margin-left:40px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.headings_2 i{
+  color: white;
+    margin-left:40px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.headings_3{
+color: white;
+    margin-left:40px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.timeline-divider{
+    position:absolute;
+    height:0;
+    width:40%;
+    border:3px solid silver;
+    top:480%;
+    left:40%;
+}
+
+
+.timeline-traveller{
+    position:sticky;
+    color: green;
+}
+#a{
+    margin-left: 40%;
+}
+.marg{
+    margin-left: 20px;
+}

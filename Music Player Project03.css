@@ -1,0 +1,290 @@
+body{
+    background-color:#2f4357;
+}
+
+/*navbar section*/
+.topnav{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+  background-color: cadetblue;
+    margin: 4px;
+    border: 1ps solid black;
+    border-radius: 10px;
+}
+#logo{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    top: 100px;
+}
+.content{
+    display:inline;
+}
+.content a{
+    color:white;
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.content input{
+   
+    width: 210px;
+    margin-left: 20%;
+    border-style: groove;
+    border: 1px solid black;
+    border-bottom-right-radius: 2px;
+    padding: 2px;
+   font-family: fantasy;
+}
+.content button{
+    background: none;
+}
+.bell{
+    margin-left: 120px;
+}
+
+.my-image img{
+ 
+    position: relative;
+    top: -50px;
+    height: 100px;
+    width:100px;
+   border-radius: 50%;
+    border:3px solid white;
+    box-shadow:1px 1px 10px 2px lightgrey;
+    margin-left: 250px;
+    float:right;
+    margin-right: 10%;
+}
+/*------------------------------------------------------------------------------------------------------------------*/
+/*main section*/
+.coldplay-container{
+    width:auto;
+    height:310px;
+    background-color: blueviolet;
+    margin-left: 3%;
+    margin-top: 5%;
+    
+}
+
+.coldplay-container img{
+    height: auto;
+    width:400px;
+    float: left;
+   margin-right: 10px;
+     border:3px solid white;
+ box-shadow:1px 1px 10px 2px black;
+}
+.upper-head{
+    display:flex;
+    justify-content: space-between;
+}
+
+.headings{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.followers{
+    color: white;
+    margin-top: 10px;
+   margin-right: 10px;
+}
+
+.description{
+    margin-top: 20px;
+    color: silver;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+}
+
+
+.button{
+     background:radial-gradient(purple,white);
+    color: white;
+    font-size: 20px;
+    margin: 20px
+}
+.ff{
+    display: inline-block;
+}
+.ff span{
+    color: white;
+}
+.tracks{
+    color: white;
+    margin-left: 40%;
+}
+
+
+#container{
+    height:400px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+#container div{
+    height: 23%;
+    width: 100%;
+    background-color: grey;
+    margin-top: 3%;
+}
+#container span>img{
+    padding: 7px;
+}
+.inside-container{
+    color:white;
+    float:right;
+    margin-right:40px;
+    margin-top: 20px;
+}
+.inside-container_2{
+    margin-left: 20px;
+    color:white;
+    font-size: 30px;
+    
+}
+.inside-container_3{
+    margin-left: 20px;
+    color:white;
+    font-size: 20px;
+    
+}
+.inside-text{
+    float: right;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+/*+++++++++++++++++++++++++++++++++++++++*/
+/*aside section*/
+.q {
+   display: flex;
+    justify-content:space-between;
+    margin-top: 5%;
+    width: 40%;
+}
+.main-body{
+    display: flex;
+    width: auto;
+}
+
+#music{
+    margin-top: 20%;
+}
+.headings{
+    color: white;
+    font-size: 25px;
+}
+
+.small{
+    color:grey;
+    font-size: 15px;
+    margin-left: 90%;
+}
+
+
+
+#queuemusic{
+     height:200px;
+    width: auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+#queuemusic div{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+}
+.text_1{
+   margin-left: 20px; 
+    font-size: 30px;  
+    color: white;
+}
+.text_2{
+    margin-left: 20px;
+    color:white;
+}
+
+.right{
+    display: inline;
+}
+
+
+.a {
+   display: flex;
+    justify-content:space-between;
+    margin-top: 50%;
+    width: 40%;
+}
+/*/****************************************************/
+/*footer*/*/
+footer{
+    background-color: black;
+    height:100%;
+    width: auto;
+}
+.musc{
+     margin: auto;
+       width: 50%;
+  padding: 10px;
+}
+#musc img{
+    margin:20px;
+    width:200px;
+}
+
+.headings{
+    color: white;
+    margin-left:40px;
+    margin: 40px;
+    font-size: 20px;
+}
+.headings_2 text{
+     color: white;
+    margin-left:40px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.headings_2 i{
+  color: white;
+    margin-left:40px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.headings_3{
+color: white;
+    margin-left:40px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.timeline-divider{
+    position:absolute;
+    height:0;
+    width:40%;
+    border:3px solid silver;
+    top:265%;
+    left:40%;
+}
+
+
+.timeline-traveller{
+    position:sticky;
+    color: green;
+}
+#a{
+    margin-left: 40%;
+}
+.marg{
+    margin-left: 20px;
+}
